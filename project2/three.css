@@ -1,0 +1,371 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.first{
+    background-image: url("unsplash_pHPzdEHN6Os.png");
+    /* background-color: aliceblue; */
+    min-height:100vh;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.info{
+    height:fit-content;
+    
+
+
+}
+h1{
+    font-family: sans-serif;
+    font-size: 65px;
+    font-weight:250;
+    coloR:white;
+    line-height: 1.3;
+    
+}
+#name{
+    font-size:37px;
+    font-weight:100;
+    color:white;
+}
+.big{
+    height:300px;
+    background-color: black;
+    color:white;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+
+}
+#you{
+
+    font-size: 145px;
+
+}
+.cards{
+    height: fit-content;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom:50px;
+    
+}
+.c1{
+    height:500px;
+    width:20vw;
+    box-shadow: 4px 4px 12px rgba(91, 91, 91, 0.327);
+    border-radius:10px;
+    transition:0.3s ease-in-out;
+
+
+
+}
+.c2{
+    height:500px;
+    width:20vw;
+    box-shadow: 4px 4px 12px rgba(91, 91, 91, 0.327);
+    margin:0 5vw 0 5vw;
+    border-radius:10px;
+    transition:0.3s ease-in-out;
+    
+    
+}
+.c3{
+    height:500px;
+    width:20vw;
+    box-shadow: 4px 4px 12px rgba(91, 91, 91, 0.327);
+    border-radius:10px;
+    transition:0.3s ease-in-out;
+
+
+}
+
+.c1:hover{
+
+   
+    transform: scale(1.05,1.05);
+    box-shadow: 4px 4px 30px rgba(100, 98, 205, 0.792);
+}
+
+.c2:hover{
+
+    transform: scale(1.05,1.05);
+    box-shadow: 4px 4px 30px rgba(100, 98, 205, 0.792);
+}
+
+.c3:hover{
+
+    transform: scale(1.05,1.05);
+    box-shadow: 4px 4px 30px rgba(100, 98, 205, 0.792);
+}
+
+.img1{
+    background-image: url("unsplash_hGV2TfOh0ns.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:40%;
+}
+.img2{
+    background-image: url("unsplash_6sAl6aQ4OWI.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:40%;
+}
+.img3{
+    background-image: url("unsplash_tZc3vjPCk-Q.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:40%;
+}
+
+
+
+.below1{
+    padding:25px 17px 0px 17px;
+}
+.below2{
+    padding:25px 17px 0px 17px;
+    
+}
+.below3{
+    
+    padding:25px 17px 0px 17px;
+}
+
+.headc{
+
+    font-size: 27px;
+    font-family:sans-serif;
+    font-weight: 350;
+
+
+
+}
+
+.parac{
+
+    margin-top:20px;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: smaller;
+    
+
+}
+
+.about{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:450px;
+    background-color:darkgray ;
+}
+
+.contactme{
+    background-color: rgba(81, 86, 3, 1);
+    color:white;
+    padding-top:50px;
+    font-family:sans-serif;
+    padding:65px 80px 70px 130px;
+
+
+}
+.aboutme{
+    background-color: rgba(114, 35, 0, 1);
+    color:white;
+    padding-top:50px;
+    font-family:sans-serif;
+    padding:65px 160px 70px 130px;
+
+}
+
+.paraab{
+    font-size:medium;
+    margin-top:20px;
+    
+}
+/* .headabout{
+    font-size:80px;
+
+} */
+#emailc{
+    font-size: larger;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------- */
+/* RESPONSIVE DESIGN */
+/* ----------------------------------------- */
+
+
+/* ========== LARGE TABLETS (max-width: 1024px) ========== */
+/* @media (max-width: 1024px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .c1, .c2, .c3 {
+        width: 30vw;
+        height: auto;
+    }
+}
+
+
+/* ========== TABLETS (max-width: 768px) ========== */
+/* @media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    #name {
+        font-size: 26px;
+    }
+
+    .big {
+        font-size: 50px;
+    }
+
+    #you {
+        font-size: 100px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .c1, .c2, .c3 {
+        width: 70%;
+        height: auto;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .contactme, .aboutme {
+        padding: 50px;
+    }
+}
+
+
+/* ========== MOBILE (max-width: 480px) ========== */
+
+/*
+@media (max-width: 480px) {
+
+    /* HERO SECTION */
+    /*h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    #name {
+        font-size: 20px;
+    }
+
+    .first {
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* WORK HEADING */
+    /*.big {
+        height: auto;
+        font-size: 35px;
+        padding: 30px 10px;
+        text-align: center;
+    }
+
+    #you {
+        font-size: 55px;
+    }
+
+    /* CARDS */
+    /*.cards {
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 25px;
+    }
+
+    .c1, .c2, .c3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .headc {
+        font-size: 22px;
+    }
+
+    .parac {
+        font-size: 14px;
+    }
+
+    /* ABOUT + CONTACT */
+    /*.about {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .contactme, .aboutme {
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    #emailc {
+        font-size: 16px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+} */
+ */
+*/
